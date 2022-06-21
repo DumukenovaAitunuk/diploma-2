@@ -4,7 +4,7 @@ import expressImage from "../assets/detective3.jpg";
 import noneImage from "../assets/detective4.jpg";
 import  akroydImage from "../assets/detective5.jpg";
 import  holmesImage from "../assets/detective6.jpg";
-
+import  morgueImage from "../assets/detective7.jpg";
 const products = [
   {
     image: sleepImage,
@@ -57,16 +57,16 @@ const products = [
     productId: "book5",
     categoryId: "Detective",
     title: "The Complete Sherlock Holmes",
-    description: `What It's About: Sir Arthur Conan Doyle’s Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
+    description: `What It's About: Sir Arthur Conan Doyle's Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
     price:2,
   },
   {
-    image: holmesImage,
-    productId: "book1",
-    categoryId: "Fantastic",
-    title: "The Complete Sherlock Holmes",
-    description: `What It's About: Sir Arthur Conan Doyle’s Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
-    price:2,
+    image: morgueImage,
+    productId: "book6",
+    categoryId: "Detective",
+    title: "The Murders in the Rue Morgue",
+    description: `The Murders in the Rue Morgue is a short story by Edgar Allan Poe published in Graham's Magazine in 1841. It has been recognized as the first modern detective story; Poe referred to it as one of his "tales of ratiocination".`,
+    price:4,
   }, 
 ];
 

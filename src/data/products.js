@@ -6,7 +6,7 @@ import  akroydImage from "../assets/detective5.jpg";
 import  holmesImage from "../assets/detective6.jpg";
 import  morgueImage from "../assets/detective7.jpg";
 import  snowmanImage from "../assets/detective8.jpg";
-import  morgueImage from "../assets/detective9.jpg";
+import  floorImage from "../assets/detective9.jpg";
 import  morgueImage from "../assets/detective10.jpg";
 const products = [
   {
@@ -87,7 +87,22 @@ const products = [
     description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
     price:4,
   }, 
-
+  {
+    image: floorImage,
+    productId: "book9",
+    categoryId: "Detective",
+    title: "Killing Floor",
+    description: ` Ex-military policeman Jack Reacher is a drifter. He's just passing through Margrave, Georgia, and in less than an hour, he's arrested for murder. Not much of a welcome. All Jack knows is that he didn't kill anybody. At least not here. Not lately. But he doesn't stand a chance of convincing anyone.`,
+    price:4,
+  }, 
+  {
+    image: snowmanImage,
+    productId: "book10",
+    categoryId: "Detective",
+    title: "Killing Floor",
+    description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
+    price:4,
+  }, 
 ];
 
 export function getProducts(categoryId) {

@@ -60,6 +60,14 @@ const products = [
     description: `What It's About: Sir Arthur Conan Doyle’s Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
     price:2,
   },
+  {
+    image: holmesImage,
+    productId: "book1",
+    categoryId: "Fantastic",
+    title: "The Complete Sherlock Holmes",
+    description: `What It's About: Sir Arthur Conan Doyle’s Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
+    price:2,
+  }, 
 ];
 
 export function getProducts(categoryId) {

@@ -7,7 +7,7 @@ import  holmesImage from "../assets/detective6.jpg";
 import  morgueImage from "../assets/detective7.jpg";
 import  snowmanImage from "../assets/detective8.jpg";
 import  floorImage from "../assets/detective9.jpg";
-import  morgueImage from "../assets/detective10.jpg";
+import  caseImage from "../assets/detective10.jpg";
 const products = [
   {
     image: sleepImage,
@@ -96,11 +96,12 @@ const products = [
     price:4,
   }, 
   {
-    image: snowmanImage,
+    image: caseImage,
     productId: "book10",
     categoryId: "Detective",
-    title: "Killing Floor",
-    description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
+    title: "Case Histories",
+    description: `The first book in Kate Atkinson's Jackson Brodie Mysteries series, called "The best mystery of the decade" by Stephen King, finds private investigator Jackson Brodie following three seemingly unconnected family mysteries in Edinburgh
+    Case one: A little girl goes missing in the night. Case two: A beautiful young office worker falls victim to a maniac's apparently random attack.`,
     price:4,
   }, 
 ];

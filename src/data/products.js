@@ -14,7 +14,7 @@ const products = [
     description: `The iconic first novel from crime fiction master Raymond Chandler, featuring Philip Marlowe, the "quintessential urban private eye" (Los Angeles Times).
 
     A dying millionaire hires private eye Philip Marlowe to handle the blackmailer of one of his two troublesome daughters, and Marlowe finds himself involved with more than extortion. Kidnapping, pornography, seduction, and murder are just a few of the complications he gets caught up in.`,
-    price: 0.63,
+    price: 3,
   },
   {
     image: falconImage,

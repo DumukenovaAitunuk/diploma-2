@@ -79,30 +79,14 @@ const products = [
     description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
     price:3,
   }, 
-  {
-    image: snowmanImage,
-    productId: "book8",
-    categoryId: "Detective",
-    title: "The Snowman",
-    description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
-    price:2,
-  }, 
+ 
   {
     image: floorImage,
-    productId: "book9",
+    productId: "book8",
     categoryId: "Detective",
     title: "Killing Floor",
     description: ` Ex-military policeman Jack Reacher is a drifter. He's just passing through Margrave, Georgia, and in less than an hour, he's arrested for murder. Not much of a welcome. All Jack knows is that he didn't kill anybody. At least not here. Not lately. But he doesn't stand a chance of convincing anyone.`,
     price:5,
-  }, 
-  {
-    image: caseImage,
-    productId: "book10",
-    categoryId: "Detective",
-    title: "Case Histories",
-    description: `The first book in Kate Atkinson's Jackson Brodie Mysteries series, called "The best mystery of the decade" by Stephen King, finds private investigator Jackson Brodie following three seemingly unconnected family mysteries in Edinburgh
-    Case one: A little girl goes missing in the night. Case two: A beautiful young office worker falls victim to a maniac's apparently random attack.`,
-    price:4,
   }, 
 ];
 

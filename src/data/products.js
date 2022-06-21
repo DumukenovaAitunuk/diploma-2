@@ -5,6 +5,9 @@ import noneImage from "../assets/detective4.jpg";
 import  akroydImage from "../assets/detective5.jpg";
 import  holmesImage from "../assets/detective6.jpg";
 import  morgueImage from "../assets/detective7.jpg";
+import  snowmanImage from "../assets/detective8.jpg";
+import  morgueImage from "../assets/detective9.jpg";
+import  morgueImage from "../assets/detective10.jpg";
 const products = [
   {
     image: sleepImage,
@@ -68,6 +71,23 @@ const products = [
     description: `The Murders in the Rue Morgue is a short story by Edgar Allan Poe published in Graham's Magazine in 1841. It has been recognized as the first modern detective story; Poe referred to it as one of his "tales of ratiocination".`,
     price:4,
   }, 
+  {
+    image: snowmanImage,
+    productId: "book7",
+    categoryId: "Detective",
+    title: "The Snowman",
+    description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
+    price:4,
+  }, 
+  {
+    image: snowmanImage,
+    productId: "book8",
+    categoryId: "Detective",
+    title: "The Snowman",
+    description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
+    price:4,
+  }, 
+
 ];
 
 export function getProducts(categoryId) {

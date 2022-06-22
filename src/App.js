@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Payment from "./pages/Payment";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </Layout>
     </div>

@@ -1,12 +1,12 @@
 import sleepImage from "../assets/detective1.jpg";
-import  falconImage from "../assets/detective2.jpg";
+import falconImage from "../assets/detective2.jpg";
 import expressImage from "../assets/detective3.jpg";
 import noneImage from "../assets/detective4.jpg";
-import  akroydImage from "../assets/detective5.jpg";
-import  holmesImage from "../assets/detective6.jpg";
-import  morgueImage from "../assets/detective7.jpg";
-import  snowmanImage from "../assets/detective8.jpg";
-import  floorImage from "../assets/detective9.jpg";
+import akroydImage from "../assets/detective5.jpg";
+import holmesImage from "../assets/detective6.jpg";
+import morgueImage from "../assets/detective7.jpg";
+import snowmanImage from "../assets/detective8.jpg";
+import floorImage from "../assets/detective9.jpg";
 
 const products = [
   {
@@ -43,7 +43,7 @@ const products = [
     categoryId: "Detective",
     title: "And Then There Were None",
     description: `What It's About: First, there were ten—a curious assortment of strangers summoned as weekend guests to a little private island off the coast of Devon. Their host, an eccentric millionaire unknown to all of them, is nowhere to be found. All that the guests have in common is a wicked past they're unwilling to reveal—and a secret that will seal their fate...`,
-    price:1,
+    price: 1,
   },
   {
     image: akroydImage,
@@ -61,7 +61,7 @@ const products = [
     categoryId: "Detective",
     title: "The Complete Sherlock Holmes",
     description: `What It's About: Sir Arthur Conan Doyle's Sherlock Holmes tales are rightly ranked among the seminal works of mystery and detective fiction. The handsome packaging and splendid illustrations in this limited edition collection more than befit that classic status. Included are all four full-length Holmes novels and more than forty short masterpieces—from The Adventures of Sherlock Holmes to The Case Book of Sherlock Holmes.`,
-    price:2,
+    price: 2,
   },
   {
     image: morgueImage,
@@ -69,40 +69,37 @@ const products = [
     categoryId: "Detective",
     title: "The Murders in the Rue Morgue",
     description: `The Murders in the Rue Morgue is a short story by Edgar Allan Poe published in Graham's Magazine in 1841. It has been recognized as the first modern detective story; Poe referred to it as one of his "tales of ratiocination".`,
-    price:4,
-  }, 
+    price: 4,
+  },
   {
     image: snowmanImage,
     productId: "book7",
     categoryId: "Detective",
     title: "The Snowman",
     description: `Oslo in November. The first snow of the season has fallen. A boy named Jonas wakes in the night to find his mother gone. Out his window, in the cold moonlight, he sees the snowman that inexplicably appeared in the yard earlier in the day. Around its neck is his mother's pink scarf. Hole suspects a link between a menacing letter he's received and the disappearance of Jonas's mother - and of perhaps a dozen other women".`,
-    price:3,
-  }, 
- 
+    price: 3,
+  },
+
   {
     image: floorImage,
     productId: "book8",
     categoryId: "Detective",
     title: "Killing Floor",
     description: ` Ex-military policeman Jack Reacher is a drifter. He's just passing through Margrave, Georgia, and in less than an hour, he's arrested for murder. Not much of a welcome. All Jack knows is that he didn't kill anybody. At least not here. Not lately. But he doesn't stand a chance of convincing anyone.`,
-    price:5,
-  }, 
+    price: 5,
+  },
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);    
+    return products.filter((product) => product.categoryId === categoryId);
   }
 
   return products;
 }
 
-
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

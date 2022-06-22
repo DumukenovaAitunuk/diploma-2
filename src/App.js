@@ -21,7 +21,6 @@ function App() {
           <Route path="/categories/:categoryId" element={<Category />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/payment" element={<Payment />} />
-          <Route path="/stocks" element={<Stocks />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

@@ -6,10 +6,8 @@ import { getProducts } from "../data/products";
 function Products() {
   return (
     <>
-      <Header
-        title="Give our shop"
-        image={headerImage}>
-        You want look of interest book for yourself 
+      <Header title="Give our shop" image={headerImage}>
+        You want look of interest book for yourself
       </Header>
 
       <ProductList products={getProducts()} />

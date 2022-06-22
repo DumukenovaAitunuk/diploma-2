@@ -4,6 +4,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   justify-content: center;
 }
+
 .Toolbar .container {
   display: flex;
   align-items: center;
@@ -12,6 +13,7 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
 @media (max-width: 620px) {
   .Toolbar ul {
     display: none;

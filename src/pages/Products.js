@@ -9,7 +9,7 @@ function Products() {
       <Header
         title="Give our shop"
         image={headerImage}>
-        ou want look of interest book for yourself 
+        You want look of interest book for yourself 
       </Header>
 
       <ProductList products={getProducts()} />

@@ -7,7 +7,7 @@ import  holmesImage from "../assets/detective6.jpg";
 import  morgueImage from "../assets/detective7.jpg";
 import  snowmanImage from "../assets/detective8.jpg";
 import  floorImage from "../assets/detective9.jpg";
-import  caseImage from "../assets/detective10.jpg";
+
 const products = [
   {
     image: sleepImage,

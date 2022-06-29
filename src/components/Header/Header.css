@@ -63,5 +63,13 @@
   color: rgb(55, 0, 255);
   border: 1px solid rgb(67, 74, 168);
   padding-right: 2rem;
-  padding-left: 2rem; 
+  padding-left: 2rem;
+  margin-left: 30%;
+  border-radius: 3px;
+  
+}
+
+.Total a:hover{
+  background-color: rgba(255, 0, 0, 0.854) ;
+  color: black;
 }

@@ -54,3 +54,7 @@
  border-radius: 20px;
  background-color: rgba(59, 102, 135, 0.739);
 }
+.Total {
+  font-size: 1.5rem;
+  justify-content: space-between;
+}

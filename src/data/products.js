@@ -7,6 +7,7 @@ import holmesImage from "../assets/detective6.jpg";
 import morgueImage from "../assets/detective7.jpg";
 import snowmanImage from "../assets/detective8.jpg";
 import floorImage from "../assets/detective9.jpg";
+import brassImage from "../assets/fantasy1.jpg";
 
 
 
@@ -92,7 +93,15 @@ const products = [
     description: ` Ex-military policeman Jack Reacher is a drifter. He's just passing through Margrave, Georgia, and in less than an hour, he's arrested for murder. Not much of a welcome. All Jack knows is that he didn't kill anybody. At least not here. Not lately. But he doesn't stand a chance of convincing anyone.`,
     price: 5,
   },
-
+  {
+    image: brassImage,
+    productId: "book1",
+    categoryId: "Fantastic",
+    title: "The City of Brass, by S. A. Chakraborty",
+    description: ` The first novel in Chakraborty’s trilogy is set in 18th-century Cairo, where a thief-slash-exorcist named Nahri accidentally summons a djinn warrior. Together, they travel to the “city of brass,” a magical metropolis called Daevabad. Nahri’s story continues in two fast-paced sequels, The Kingdom of Copper and The Empire of Gold, while a spinoff story compilation, The River of Silver, is forthcoming this October.`,
+    price: 16,
+  },
+ 
 
  
 ];

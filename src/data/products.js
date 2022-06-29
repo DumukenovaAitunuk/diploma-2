@@ -7,15 +7,7 @@ import holmesImage from "../assets/detective6.jpg";
 import morgueImage from "../assets/detective7.jpg";
 import snowmanImage from "../assets/detective8.jpg";
 import floorImage from "../assets/detective9.jpg";
-import brassImage from "../assets/fantasy1.jpg";
-import nightImage from "../assets/fantasy2.jpg";
-import buriedImage from "../assets/fantasy3.jpg";
-import mountImage from "../assets/fantasy4.jpg";
-import ringImage from "../assets/fantasy5.jpg";
-import otherImage from "../assets/fantasy6.jpg";
-import sorcererImage from "../assets/fantasy7.jpg";
-import worldImage from "../assets/fantasy8.jpg";
-import polkImage from "../assets/fantasy9.jpg";
+
 
 
 
@@ -100,79 +92,7 @@ const products = [
     description: ` Ex-military policeman Jack Reacher is a drifter. He's just passing through Margrave, Georgia, and in less than an hour, he's arrested for murder. Not much of a welcome. All Jack knows is that he didn't kill anybody. At least not here. Not lately. But he doesn't stand a chance of convincing anyone.`,
     price: 5,
   },
-  {
-    image: brassImage,
-    productId: "book1",
-    categoryId: "Fantastic",
-    title: "The City of Brass, by S. A. Chakraborty",
-    description: ` The first novel in Chakraborty’s trilogy is set in 18th-century Cairo, where a thief-slash-exorcist named Nahri accidentally summons a djinn warrior. Together, they travel to the “city of brass,” a magical metropolis called Daevabad. Nahri’s story continues in two fast-paced sequels, The Kingdom of Copper and The Empire of Gold, while a spinoff story compilation, The River of Silver, is forthcoming this October.`,
-    price: 16,
-  },
-  {
-    image: nightImage,
-    productId: "book2",
-    categoryId: "Fantastic",
-    title: "The Night Circus, by Erin Morgenstern",
-    description: ` The only book on this list written during National Novel Writing Month, Morgenstern’s debut novel is an atmospheric fairy tale about Le Cirque des Rêves—a traveling magical circus that only appears at night in Victorian England. The nonlinear story is full of surprising secrets that keep coming until the very end.`,
-    price: 12,
-  },
-  {
-    image: buriedImage,
-    productId: "book3",
-    categoryId: "Fantastic",
-    title: "The Buried Giant, by Kazuo Ishiguro",
-    description: ` The author of Never Let Me Go has only written one fantasy novel, but he knocked it out of the park. In the Dark Ages after the death of King Arthur, a mysterious “mist” prevents Britons from storing long-term memories. An elderly couple, convinced that a son they can barely remember is missing, journeys across the country to find him, where they stumble upon ogres, a dragon, and Sir Gawain.     `,
-    price: 15,
-  },
-  {
-    image: mountImage,
-    productId: "book4",
-    categoryId: "Fantastic",
-    title: "The Library at Mount Char, by Scott Hawkins",
-    description: `Carolyn and her eleven siblings live together in the house of their father, a seemingly immortal man whose library grants them special powers. To say anything else would spoil this riveting, one-of-a-kind novel full of surprises and paced like a thriller.`,
-    price: 15,
-  },
-  {
-    image: ringImage,
-    productId: "book5",
-    categoryId: "Fantastic",
-    title: "Ring Shout, by P. Djèlí Clark",
-    description: `In Clark’s harrowing novella, white supremacists summon demonic entities when The Birth of a Nation premiers in 1915. Seven years later in Georgia, three battle-ready Black women armed with a sword, a rifle, and explosives come together at Stone Mountain to stop a demon-infested Ku Klux Klan from bringing about an apocalypse.`,
-    price: 12,
-  },
-  {
-    image: otherImage,
-    productId: "book6",
-    categoryId: "Fantastic",
-    title: "The Other City, by Michal Ajvaz",
-    description: ` Translated into English in 2009, The Other City is a challenging but immensely rewarding novel set in Prague, where an unnamed narrator discovers a purple book written in an indecipherable language; he then realizes that there’s another, surreal version of the city existing in the same space as the familiar one. His midnight travels through this “other city” are rich with Borgesian and Dalíesque imagery, resulting in a reading experience you’ll never forget.`,
-    price: 15,
-  },
 
-   {
-    image: sorcererImage,
-    productId: "book7",
-    categoryId: "Fantastic",
-    title: "The Sorcerer of the Wildeeps, by Kai Ashante Wilson",
-    description: `Another strange forest is at the center of The Sorcerer of the Wildeeps, Kai Ashante Wilson’s 2015 novella about two men descended from dead gods. They lead an expedition through the Wildeeps, where multiple worlds overlap and magical creatures stalk their party. It’s a captivating world, expanded upon even further in 2016 by a followup novella, A Taste of Honey.`,
-    price: 11,
-  },
-  {
-    image: worldImage,
-    productId: "book8",
-    categoryId: "Fantastic",
-    title: "The Unfinished World, by Amber Sparks",
-    description: ` Amber Sparks plays with form, genre, and archetypes in this nuanced collection of short stories. An assortment of knights, werewolves, astronauts, librarians, time-travelers, and dinosaurs haunt these pages, but never as tropes—despite their fantastical premises, each story is grounded in emotional realism.`,
-    price: 16,
-  },
-  {
-    image: polkImage,
-    productId: "book9",
-    categoryId: "Fantastic",
-    title: "Witchmark, by C.L. Polk",
-    description: `Winner of the 2019 World Fantasy Award for Best Novel, Witchmark is set in a secondary world similar to Edwardian England and ruled by noble families with magical powers. The setup is fantastic and the characters are nuanced, but the book really shines in the latter half, thanks to a series of revelations you’ll never see coming.`,
-    price: 16,
-  },
 
  
 ];

@@ -40,11 +40,14 @@ function Cart() {
         image={image}>
         Please review items in your cart.
       </Header>
-      <div className="Total">
-        {output}
+     <div>
+     {output}
+       
+     </div>
+       
+        <div className="Total">
         <hr />
         Total: ${total}
-
         <Link to="/checkout">Checkout</Link>
       </div>
     </>

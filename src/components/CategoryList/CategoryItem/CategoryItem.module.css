@@ -3,27 +3,25 @@
   height: 300px;
   object-fit: cover;
   object-position: center;
-  border-top-left-radius: 20rem;
-  border-top-right-radius: 20rem;
+  border-top-left-radius: 20rem ;
+border-top-right-radius:20rem;
 
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 30px rgb(0, 0, 0);
   z-index: 2;
 }
-
 .CategoryItem {
   position: relative;
   flex: 0 0 30%;
   margin-bottom: 5rem;
   margin-top: 1rem;
 }
-
 .CategoryItem a {
   position: absolute;
   bottom: -3.5rem;
   left: 1.5rem;
   right: 1.5rem;
   z-index: 1;
-
+  
 
   background-color: rgb(119, 86, 52);
   color: white;
@@ -32,11 +30,10 @@
   padding: .8rem 1rem 1.2rem;
   text-decoration: none;
   text-align: center;
-  border-radius: 10px;
+ border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
-
-.CategoryItem a:hover {
+.CategoryItem a:hover{
   background-color: rgb(139, 69, 42);
   color: white;
 }

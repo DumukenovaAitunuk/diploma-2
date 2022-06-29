@@ -3,8 +3,8 @@ body {
   font-family: 'Bree Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/background.jpg");
-  color: rgba(0, 0, 0, 0.268);
+
+ background-color: #0000a544;
 
 }
 

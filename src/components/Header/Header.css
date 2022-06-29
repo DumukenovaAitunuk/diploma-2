@@ -46,3 +46,11 @@
   color: rgb(84, 53, 16);
   text-decoration: none;
 }
+.Crement button{
+  border: 2px solid rgb(0, 42, 255);
+  font-size: 1.5rem;
+ display: flex;
+ justify-items: center;
+ border-radius: 20px;
+ background-color: rgba(59, 102, 135, 0.739);
+}

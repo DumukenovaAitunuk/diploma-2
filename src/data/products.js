@@ -11,7 +11,7 @@ import brassImage from "../assets/fantasy1.jpg";
 import nightImage from "../assets/fantasy2.jpg";
 import buriedImage from "../assets/fantasy3.jpg";
 import mountImage from "../assets/fantasy4.jpg";
-
+import ringImage from "../assets/fantasy5.jpg";
 
 
 const products = [
@@ -126,6 +126,14 @@ const products = [
     title: "The Library at Mount Char, by Scott Hawkins",
     description:` Carolyn and her eleven siblings live together in the house of their father, a seemingly immortal man whose library grants them special powers. To say anything else would spoil this riveting, one-of-a-kind novel full of surprises and paced like a thriller.`,
     price: 15,
+  },
+  {
+    image: ringImage,
+    productId: "book5",
+    categoryId: "Fantastic",
+    title: "Ring Shout, by P. Djèlí Clark",
+    description:` In Clark’s harrowing novella, white supremacists summon demonic entities when The Birth of a Nation premiers in 1915. Seven years later in Georgia, three battle-ready Black women armed with a sword, a rifle, and explosives come together at Stone Mountain to stop a demon-infested Ku Klux Klan from bringing about an apocalypse.`,
+    price: 12,
   },
 ];
 

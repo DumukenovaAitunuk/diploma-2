@@ -8,6 +8,7 @@ import morgueImage from "../assets/detective7.jpg";
 import snowmanImage from "../assets/detective8.jpg";
 import floorImage from "../assets/detective9.jpg";
 import brassImage from "../assets/fantasy1.jpg";
+import nightImage from "../assets/fantasy2.jpg";
 
 
 
@@ -101,7 +102,14 @@ const products = [
     description: ` The first novel in Chakraborty’s trilogy is set in 18th-century Cairo, where a thief-slash-exorcist named Nahri accidentally summons a djinn warrior. Together, they travel to the “city of brass,” a magical metropolis called Daevabad. Nahri’s story continues in two fast-paced sequels, The Kingdom of Copper and The Empire of Gold, while a spinoff story compilation, The River of Silver, is forthcoming this October.`,
     price: 16,
   },
- 
+  {
+    image: nightImage,
+    productId: "book2",
+    categoryId: "Fantastic",
+    title: "The Night Circus, by Erin Morgenstern",
+    description: ` The only book on this list written during National Novel Writing Month, Morgenstern’s debut novel is an atmospheric fairy tale about Le Cirque des Rêves—a traveling magical circus that only appears at night in Victorian England. The nonlinear story is full of surprising secrets that keep coming until the very end.`,
+    price: 12,
+  },
 
  
 ];

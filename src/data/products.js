@@ -10,7 +10,7 @@ import floorImage from "../assets/detective9.jpg";
 import brassImage from "../assets/fantasy1.jpg";
 import nightImage from "../assets/fantasy2.jpg";
 import buriedImage from "../assets/fantasy3.jpg";
-
+import mountImage from "../assets/fantasy4.jpg";
 
 
 
@@ -117,6 +117,14 @@ const products = [
     categoryId: "Fantastic",
     title: "The Buried Giant, by Kazuo Ishiguro",
     description:  `The author of Never Let Me Go has only written one fantasy novel, but he knocked it out of the park. In the Dark Ages after the death of King Arthur, a mysterious “mist” prevents Britons from storing long-term memories. An elderly couple, convinced that a son they can barely remember is missing, journeys across the country to find him, where they stumble upon ogres, a dragon, and Sir Gawain. `    ,
+    price: 15,
+  },
+  {
+    image: mountImage,
+    productId: "book4",
+    categoryId: "Fantastic",
+    title: "The Library at Mount Char, by Scott Hawkins",
+    description:` Carolyn and her eleven siblings live together in the house of their father, a seemingly immortal man whose library grants them special powers. To say anything else would spoil this riveting, one-of-a-kind novel full of surprises and paced like a thriller.`,
     price: 15,
   },
 ];

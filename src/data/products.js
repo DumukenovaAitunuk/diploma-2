@@ -9,7 +9,7 @@ import snowmanImage from "../assets/detective8.jpg";
 import floorImage from "../assets/detective9.jpg";
 import brassImage from "../assets/fantasy1.jpg";
 import nightImage from "../assets/fantasy2.jpg";
-
+import buriedImage from "../assets/fantasy3.jpg";
 
 
 
@@ -111,7 +111,14 @@ const products = [
     price: 12,
   },
 
- 
+  {
+    image: buriedImage,
+    productId: "book3",
+    categoryId: "Fantastic",
+    title: "The Buried Giant, by Kazuo Ishiguro",
+    description:  `The author of Never Let Me Go has only written one fantasy novel, but he knocked it out of the park. In the Dark Ages after the death of King Arthur, a mysterious “mist” prevents Britons from storing long-term memories. An elderly couple, convinced that a son they can barely remember is missing, journeys across the country to find him, where they stumble upon ogres, a dragon, and Sir Gawain. `    ,
+    price: 15,
+  },
 ];
 
 export function getProducts(categoryId) {

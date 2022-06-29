@@ -1,0 +1,24 @@
+.CartButton {
+    position: absolute;
+    bottom: 7rem;
+    margin-left: 10%;
+    margin-bottom: -3px;
+    left:   15rem;
+    right: 25rem;
+    z-index: 1;
+    border: 1px solid transparent;
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.3rem;  
+    padding: .8rem 1rem 1.2rem;
+  border-radius: 10px;
+    text-align: center;
+  
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.CartButton:hover {
+    background-color: rgba(177, 26, 26, 0.981);
+    color: white;
+}

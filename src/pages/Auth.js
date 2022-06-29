@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../redux/authSlice";
 
+
+
 export default function Auth() {
   const dispatch = useDispatch();
   const { error, localId } = useSelector(store => store.auth);
@@ -30,7 +32,8 @@ export default function Auth() {
   return (
     <form onSubmit={onAuthStart}>
       {errorOutput}
-      <label>
+     <div className="Label"> 
+        <label>
         Email:
         <input type="email" name="email" />
       </label>
@@ -40,7 +43,7 @@ export default function Auth() {
       </label>
 
       <button>Sign in</button>
-      <button>Sign up</button>
+      <button>Sign up</button></div>
     </form>
   );
 }

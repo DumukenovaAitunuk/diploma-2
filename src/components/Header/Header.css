@@ -116,6 +116,33 @@
 .checkout button:hover{
   cursor: pointer;
 }
+.Label {
+  border: 10px double rgb(0, 51, 255);
+  width: 400px;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem  auto;
+  border-radius: 1px;
+  background-color: rgba(209, 202, 202, 0);
+
+}
+.Label a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(8, 0, 255);
+  margin: 10px;
+  text-align: center;
+}
+.Label input{
+  padding: 8px;
+  margin: 2px;
+ align-items: center;
+ text-align: center;
+ border-radius: 5px;
+ border: 1px solid rgba(0, 36, 242, 0.916);
+}
 @media (max-width: 850px) {
   .checkout {
     margin: 0 100px;
